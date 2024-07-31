@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "manipular_texto/1.0.0": {
+        "runtime": {
+          "manipular_texto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "manipular_texto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

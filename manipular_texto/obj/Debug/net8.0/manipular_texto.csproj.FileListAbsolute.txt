@@ -1,0 +1,15 @@
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\bin\Debug\net8.0\manipular_texto.exe
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\bin\Debug\net8.0\manipular_texto.deps.json
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\bin\Debug\net8.0\manipular_texto.runtimeconfig.json
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\bin\Debug\net8.0\manipular_texto.dll
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\bin\Debug\net8.0\manipular_texto.pdb
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.AssemblyInfoInputs.cache
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.AssemblyInfo.cs
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.csproj.CoreCompileInputs.cache
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.sourcelink.json
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.dll
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\refint\manipular_texto.dll
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.pdb
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\manipular_texto.genruntimeconfig.cache
+C:\Users\l1610\source\repos\manipular_texto\manipular_texto\obj\Debug\net8.0\ref\manipular_texto.dll
