@@ -11,43 +11,58 @@ namespace manupular_texto
     {
         static void Main(string[] args)
         {
-            
             Console.WriteLine("""
-                Convertir a:
-                1.- Matusculas
-                2.- Minusculas
-                3.- Salir del programa
-                """);
-            int option = int.Parse(Console.ReadLine());
-            
-            while (option != 3)
+            Convertir a:
+            1.- Matusculas
+            2.- Minusculas
+            3.- Capitalizar texto
+            4.- Salir del programa
+            """);
+            string input = Console.ReadLine();
+            int option;
+            if (string.IsNullOrEmpty(input) || !int.TryParse(input, out option))
+            {
+                Console.WriteLine("Error, ingresaseste un valor no numerico");
+            }
+            else
+            {
+                option = int.Parse(input);
+                Opcion_a_convertir(option);
+            }
+
+        }
+        public static void Opcion_a_convertir(int option)
+        {
+            try
             {
                 switch (option)
                 {
                     case 1:
                         Console.WriteLine("Escribe");
-                        string txt1 = Upper.Uppercase(Console.ReadLine());
-                        Console.WriteLine(txt1);
+                        string texto1 = Upper.Uppercase(Console.ReadLine());
+                        Console.WriteLine(texto1);
                         break;
 
                     case 2:
                         Console.WriteLine("Escribe");
-                        string txt2 = Lower.LowerCase(Console.ReadLine());
-                        Console.WriteLine(txt2);
+                        string texto2 = Lower.LowerCase(Console.ReadLine());
+                        Console.WriteLine(texto2);
                         break;
-
+                    case 3:
+                        Console.WriteLine("Escribe");
+                        string texto3 = Capitalizar.Capitalizar_texto(Console.ReadLine());
+                        Console.WriteLine(texto3);
+                        break;
                     default:
                         Console.WriteLine("Ingrese un valor correcto");
                         break;
                 }
-                Console.WriteLine("""
-                Convertir a:
-                1.- Matusculas
-                2.- Minusculas
-                3.- Salir del programa
-                """);
-                option = int.Parse(Console.ReadLine());
             }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error {e.Message}");
+            }
+
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("manipular_texto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2c556aa450f954140f481cf3c39ae5dddada0f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f11ca0ae459b0a0dec90b50abe9d3393b0b8a12f")]
 [assembly: System.Reflection.AssemblyProductAttribute("manipular_texto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("manipular_texto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
