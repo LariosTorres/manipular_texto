@@ -1,4 +1,4 @@
- Explicación #
+# Explicación #
 
 Pequeño programa donde estuve practicando el uso de métodos, instancias, clases y otras cosas.
 
