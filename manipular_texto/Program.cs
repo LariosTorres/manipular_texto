@@ -16,7 +16,9 @@ namespace manupular_texto
             1.- Matusculas
             2.- Minusculas
             3.- Capitalizar texto
-            4.- Salir del programa
+            4.- Convertir a binaryo
+            5.- Convertir binario a texto
+            6.- Salir del programa
             """);
             string input = Console.ReadLine();
             int option;
@@ -27,42 +29,8 @@ namespace manupular_texto
             else
             {
                 option = int.Parse(input);
-                Opcion_a_convertir(option);
-            }
-
-        }
-        public static void Opcion_a_convertir(int option)
-        {
-            try
-            {
-                switch (option)
-                {
-                    case 1:
-                        Console.WriteLine("Escribe");
-                        string texto1 = Upper.Uppercase(Console.ReadLine());
-                        Console.WriteLine(texto1);
-                        break;
-
-                    case 2:
-                        Console.WriteLine("Escribe");
-                        string texto2 = Lower.LowerCase(Console.ReadLine());
-                        Console.WriteLine(texto2);
-                        break;
-                    case 3:
-                        Console.WriteLine("Escribe");
-                        string texto3 = Capitalizar.Capitalizar_texto(Console.ReadLine());
-                        Console.WriteLine(texto3);
-                        break;
-                    default:
-                        Console.WriteLine("Ingrese un valor correcto");
-                        break;
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine($"Error {e.Message}");
-            }
-
+                Opcion_a_convertir.Opcion(option);
+            }          
         }
     }
 }
